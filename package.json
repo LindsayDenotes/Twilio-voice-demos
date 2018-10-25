@@ -1,0 +1,14 @@
+{
+  "name": "client-quickstart-js-master",
+  "version": "1.0.0",
+  "description": "Twilio voice app with webhook October 2018",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lindsay Brown",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
