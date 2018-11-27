@@ -92,11 +92,7 @@ app.post('/voice', (req, res) => {
 	  }, 'Its 45 seconds long.'
 	);
 
-	// twiml.play({}, 
-
 	twiml.play({}, 'https://magnolia-cat-4216.twil.io/assets/Flickers.wav');
-	// const song = new VoiceResponse();
-	// 	song.play('https://magnolia-cat-4216.twil.io/assets/Flickers.wav');
 
 	say.ssmlProsody(
 	  {
@@ -152,7 +148,6 @@ app.post('/voice', (req, res) => {
 
 	say.ssmlS('Good bye!');
 	
-	// console.log(twiml.toString());
 	
 	// Render the response as XML in reply to the webhook request
  	res.type('text/xml');
